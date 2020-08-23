@@ -18,10 +18,6 @@ public class Password {
         return passwordLength;
     }
 
-    public void setPasswordLength(Integer passwordLength) {
-        this.passwordLength = passwordLength;
-    }
-
     public String getPasswordValue() {
         return passwordValue;
     }
@@ -34,7 +30,4 @@ public class Password {
         return passwordType;
     }
 
-    public void setPasswordType(String passwordType) {
-        this.passwordType = passwordType;
-    }
 }
